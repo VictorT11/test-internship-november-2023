@@ -52,9 +52,10 @@ export const Home = () => {
                     fullWidth
                     required
                     inputProps={{
-                        pattern: '^\\d*\\.?\\d*$',
-                        title: 'Please enter only float numbers'
+                        pattern: '^-?\\d*\\.?\\d*$',
+                        title: 'Please enter only numbers'
                     }}
+                    
                 />
                 <TextField
                     value={longitude}
@@ -64,9 +65,10 @@ export const Home = () => {
                     fullWidth
                     required
                     inputProps={{
-                        pattern: '^\\d*\\.?\\d*$',
-                        title: 'Please enter only float numbers'
+                        pattern: '^-?\\d*\\.?\\d*$',
+                        title: 'Please enter only numbers'
                     }}
+                    
                 />
                 <FormControl fullWidth>
                     <InputLabel id="demo-simple-select-label">Age</InputLabel>
