@@ -13,7 +13,7 @@ export const Home = () => {
     const [latitude, setLatitude] = useState('');
     const [longitude, setLongitude] = useState('');
     const [day, setDay] = useState('');
-    const [responseData, setResponseData] = useState('');
+    const [responseData, setResponseData] = useState(null);
 
     const handleChange = (event) => {
         setDay(event.target.value);
