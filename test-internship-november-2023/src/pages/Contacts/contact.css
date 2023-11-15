@@ -1,0 +1,13 @@
+/* contact.css */
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    gap: 15px; 
+}
+
+.button {
+    margin-top: 10px; 
+    align-self: end;
+}
